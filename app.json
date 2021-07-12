@@ -1,0 +1,14 @@
+{
+    "name": "name",
+    "description": "description",
+    "stack": "heroku-18",
+    "buildpacks": [
+        {"url": "https://github.com/heroku/heroku-buildpack-google-chrome"},
+        {"url": "https://github.com/heroku/heroku-buildpack-chromedriver"},
+        {"url": "heroku/python"}
+    ],
+    "env":{
+        "CUR_EMAIL":{"description": "current email", "required":true},
+        "CUR_EXPIRE":{"description": "current expire", "required":true}
+    }
+}
