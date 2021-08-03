@@ -1,7 +1,7 @@
 {
     "name": "name",
     "description": "description",
-    "stack": "heroku-18",
+    "stack": "heroku-20",
     "buildpacks": [
         {"url": "https://github.com/heroku/heroku-buildpack-google-chrome"},
         {"url": "https://github.com/heroku/heroku-buildpack-chromedriver"},
